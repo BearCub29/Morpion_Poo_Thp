@@ -27,9 +27,15 @@ class Board
     end
   end
   def board_view
-    puts "-" * 50
-    puts " " * 50
-    print " " *19
+    puts "-" * 56
+    print "|"
+    print " " * 54
+    puts "|"
+    print "|"
+    print " " * 54
+    puts "|"
+    print "|"
+    print " " *21
     print "#{@A1.value}"
     print " " 
     print "|"
@@ -39,11 +45,15 @@ class Board
     print "|"
     print " "
     print "#{@A3.value}"
-    puts " " *19
-    print " " *19
-    print "-" *12
-    puts " " *19
-    print " " *19
+    print " " *21
+    puts "|"
+    print "|"
+    print " " * 20
+    print "-" * 14
+    print " " * 20
+    puts "|"
+    print "|"
+    print " " *21
     print "#{@B1.value}"
     print " " 
     print "|"
@@ -53,11 +63,15 @@ class Board
     print "|"
     print " "
     print "#{@B3.value}"
-    puts " " *19
-    print " " *19
-    print "-" *12
-    puts " " *19
-    print " " *19
+    print " " *21
+    puts "|"
+    print "|"
+    print " " * 20
+    print "-" * 14
+    print " " * 20
+    puts "|"
+    print "|"
+    print " " *21
     print "#{@C1.value}"
     print " " 
     print "|"
@@ -67,8 +81,14 @@ class Board
     print "|"
     print " "
     print "#{@C3.value}"
-    puts " " *19
-    puts " " * 50
-    puts "-" * 50
+    print " " *21
+    puts "|"
+    print "|"
+    print " " * 54
+    puts "|"
+    print "|"
+    print " " * 54
+    puts "|"
+    puts "-" * 55
   end
 end
